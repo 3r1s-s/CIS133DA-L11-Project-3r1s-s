@@ -64,7 +64,7 @@ nav .right {
 
 nav .active {
     background-color: #135367;
-    color: #000000
+    color: #fff;
 }
 
 nav {
@@ -89,7 +89,8 @@ table {
     width: 100%;
 }
 
-th, td {
+th,
+td {
     border: #000000 thin solid;
     background-color: #ffffff;
     padding: 5px;
@@ -99,11 +100,13 @@ th {
     background-color: #135367;
     color: #ffffff;
     padding: 10px;
-    border-bottom: #000000 medium solid; /*Step #7*/
+    border-bottom: #000000 medium solid;
+    /*Step #7*/
 }
 
 .left_label {
-    border-right: #000000 medium solid; /*Step #8 - need to apply class to labels*/
+    border-right: #000000 medium solid;
+    /*Step #8 - need to apply class to labels*/
 }
 
 /*Form Styles */
