@@ -134,6 +134,12 @@ textarea {
     margin-bottom: 10px;
 }
 
+#resetMessage {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
 button {
     margin: 10px 5px;
     padding: 5px 10px;
